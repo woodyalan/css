@@ -1,0 +1,11 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#paragrafo1 {
+  color: blue;
+}
+
+.paragrafo {
+  font-size: 1.2em;
+}

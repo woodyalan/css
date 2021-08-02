@@ -1,0 +1,40 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a[href] {
+  color: gray;
+}
+
+a[href^='tel'] {
+  color: red;
+}
+
+div + ul {
+  text-decoration: underline;
+}
+
+ul li:first-child {
+  color: red;
+}
+
+ul li:last-child {
+  color: green;
+}
+
+ul li:nth-child(2) {
+  font-style: italic;
+}
+
+div > ul li {
+  display: inline;
+}
+
+input:required {
+  border: 2px solid red;
+}
+
+input:checked + label {
+  color: green;
+  font-weight: bold;
+}
